@@ -1,0 +1,78 @@
+body {
+    background-color: #ac885f;
+    margin: 2% 2%;
+    padding: 2.65%;
+    border: solid rgb(80, 28, 28) 1px;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 19px;
+    box-shadow: 4px 4px;
+}
+h2 {
+    border-radius: 4px;
+    box-shadow: 4px 4px;
+    width: 240px;
+}
+h3 {
+    font-size: larger;
+    font-weight: normal;
+}
+h1, h2 {
+    color: rgb(80, 28, 28);
+    font-family: 'Times New Roman', Times, serif; 
+}
+p [align='center'] {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+a:link {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(80, 28, 28);
+    text-decoration: none;
+}
+a:hover {
+    color: brown; 
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.item {
+    margin: 1%;
+    text-align: center;
+    font-weight: bold;
+}
+.menu {
+    padding: 5%;
+    background-color:burlywood;
+}
+.menu:hover {
+    background-color: rgb(80, 28, 28);
+    color: burlywood;
+}
+.parrafo {
+    position: relative;
+    display: inline-block;
+}
+.parrafo .parrafotext {
+    visibility: hidden;
+    width: 400px;
+    background-color: rgb(80, 28, 28);
+    color: #fff;
+    text-align: justify;
+    border-radius: 6px;
+    padding: 5px 20px 5px 20px;
+/* Position the tooltip */
+    position:absolute;
+    z-index: 1;
+    top: -180px;
+    left: 400px;
+    }
+.parrafo:hover .parrafotext {
+    visibility: visible;
+}
